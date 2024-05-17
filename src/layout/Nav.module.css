@@ -1,0 +1,67 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 32px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.logo {
+    height: 55px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    margin: 0; /* Сбрасываем внешний отступ */
+    padding: 0; /* Сбрасываем внутренний отступ */
+}
+
+.navLinks li {
+    margin: 0 16px; 
+}
+
+.navLinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; 
+    margin-left: 16px; 
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; 
+}
+
+.requestButton {
+    background-color: rgb(255, 110, 14);
+}
+
+.calculationButton {
+    background-color: rgb(44, 39, 54);
+}
+
+.button img {
+    height: 20px;
+    margin-right: 8px; 
+}
